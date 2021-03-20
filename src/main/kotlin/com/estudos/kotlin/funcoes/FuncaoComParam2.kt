@@ -20,6 +20,5 @@ fun main(args: Array<String>) {
     val numeros = listOf(1, 9, 10, 100, 200)
     println(filtrar(nomes, ::comTresLetras))
     println(filtrar(numeros, ::comDuasCasasDecimais))
-//    println(calc(2, 3, Operacoes()::somar))
-//    println(calc(2, 3, ::somar))
+
 }
